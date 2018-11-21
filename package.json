@@ -1,0 +1,27 @@
+{
+  "name": "s2t",
+  "version": "1.0.0",
+  "description": "Test GG speech 2 text API",
+  "main": "speech2text/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js --watch"
+  },
+  "keywords": [
+    "s2t"
+  ],
+  "author": "Long Nguyen",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/speech": "^2.1.1",
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.10",
+    "mongoose": "^5.3.13",
+    "validator": "^10.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}
