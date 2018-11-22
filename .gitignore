@@ -1,5 +1,5 @@
-node_modules/
-.idea/
-
-.env
+node_modules
+npm-debug.log
+.idea
 KEY.json
+speech2text
