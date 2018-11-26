@@ -1,11 +1,11 @@
 const express = require('express');
-const http = require('http');
+const https = require('https');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const UserAPI = require('./user/api');
 
 const app = express();
-const server = http.createServer(app);
+const server = https.createServer(app);
 
 app.use(bodyParser.json());
 
